@@ -31,7 +31,7 @@ static void print_header(char *hdr) {
 	static char str[33] = "- ______________________________";
 	strlcpy(str + 2, hdr, sizeof str - 2);
 	strlcat(str, " -----------------------------", sizeof str);
-	printf(str);
+	printf("%s", str);
 }
 
 int main(int argc, char **argv) {
