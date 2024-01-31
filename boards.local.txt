@@ -1,0 +1,2 @@
+rpipicow.build.vid=0x0F0D
+rpipicow.build.pid=0x00C1
